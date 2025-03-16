@@ -6,14 +6,15 @@
     color: #ffffff;
 }
 
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(90deg, #FF0000, #FFA500, #FFFF00, #008000, #0000FF, #4B0082, #EE82EE) no-repeat fixed; height: 100vh;
-   /* #212121 */
+    background: linear-gradient(90deg, #FF0000, #FFA500, #FFFF00, #008000, #0000FF, #4B0082, #EE82EE);
+    height: 100vh; /* Ensure it covers the full viewport */
 }
+
 
 .container{
     position: relative;
